@@ -12,7 +12,6 @@ import {
 } from '../../components/Icons/index';
 import Slider from '../../components/Slider/Slider';
 import Indicator from '../../components/Indicator/Indicator';
-import useScreenSize from '../../hooks/useScreenSize';
 
 const Card = ({
   title,
@@ -21,21 +20,13 @@ const Card = ({
   humidity,
   color,
   image,
-  open = false,
+  open,
+  onClick,
   // simple = false,
 }) => {
-  const screenSize = useScreenSize();
   const cardClassNames = classNames(styles.card, {
     [styles[`${color}`]]: color,
   });
-
-  useEffect(() => {
-    if (screenSize.width >= 700) {
-      setIsOpened(true);
-    } else {
-      setIsOpened(false);
-    }
-  }, [screenSize.width]);
 
   const [isOpened, setIsOpened] = useState(open);
 
@@ -84,9 +75,8 @@ const Card = ({
         )}
       </button>
 
-      {/* {isSimple && <p className={styles.details}>{description}</p>} */}
       {isOpened && (
-        <div className={styles.details}>
+        <section className={styles.details}>
           <Slider
             sliderValue={temperatureValue}
             onChange={(e) => setTemperatureValue(e.target.value)}
@@ -108,7 +98,7 @@ const Card = ({
             iconOff={<WaterOff color="currentColor" />}
             color={color}
           />
-        </div>
+        </section>
       )}
     </div>
   );

@@ -11,8 +11,10 @@ import Card from './components/Card/Card';
 // - add tests
 // - write questions
 // - write tasks
+// - A/B testing
 
-export default function App() {
+const App = () => {
+
   // sort array alphabetically by value
   const sortedFlowers = flowers.sort((a, b) => {
     if (a.name < b.name) {
@@ -23,6 +25,8 @@ export default function App() {
     }
     return 0;
   });
+
+  const isNotMobile = (window.innerWidth >= 700);
 
   return (
     <>
@@ -38,9 +42,12 @@ export default function App() {
             humidity={flower.humidity}
             color={flower.color}
             image={flower.image}
+            open={isNotMobile ? true : false}
           />
         ))}
       </section>
     </>
   );
 }
+
+export default App;
