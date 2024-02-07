@@ -6,7 +6,6 @@ import Title from './components/Title/Title';
 import Card from './components/Card/Card';
 
 // TODO:
-// - sort flowers alphabetically
 // - save values to localstorage
 // - add stories
 // - add tests
@@ -14,12 +13,23 @@ import Card from './components/Card/Card';
 // - write tasks
 
 export default function App() {
+  // sort array alphabetically by value
+  const sortedFlowers = flowers.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
+
   return (
     <>
       <Title>Your Herbarium</Title>
 
       <section className="cards-grid">
-        {flowers.map((flower) => (
+        {sortedFlowers.map((flower) => (
           <Card
             key={flower.id}
             title={flower.name}
