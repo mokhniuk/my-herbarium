@@ -1,3 +1,6 @@
+// Author's atricle:
+// https://medium.com/@josephat94/building-a-simple-react-hook-to-detect-screen-size-404a867fa2d2
+
 import { useState, useEffect } from 'react';
 
 const useScreenSize = () => {

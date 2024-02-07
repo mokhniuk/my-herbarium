@@ -5,8 +5,7 @@ import flowers from './data/flowers';
 import Title from './components/Title/Title';
 import Card from './components/Card/Card';
 
-// TODO
-// - dark theme
+// TODO:
 // - sort flowers alphabetically
 // - save values to localstorage
 // - add stories

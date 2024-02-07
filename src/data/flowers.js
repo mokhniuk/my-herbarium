@@ -1,3 +1,6 @@
+// added 'image' attribute to each item 
+// TODO: generate 'id' with uuid or similar
+
 const FLOWERS = [
   {
     id: 'fec8f7235bf8769c101b2eaa014edbeb2d540a02',
@@ -37,7 +40,7 @@ const FLOWERS = [
     humidity: 45.11,
     description:
       'Chrysanthemums are flowering plants of the genus Chrysanthemum in the family Asteraceae. They are native to East Asia and northeastern Europe and the center of diversity is in China.',
-    image: '',
+    image: 'chrysanthemum',
   },
   {
     id: 'd793dc12cb58062cc2a64d438d541dc8ad4daa95',
@@ -47,7 +50,7 @@ const FLOWERS = [
     humidity: 39.5,
     description:
       "Zinnias are annuals which flower officially in summer, but with the number of cultivars available you're covered for spring into autumn.",
-    image: '',
+    image: 'zinnia',
   },
 ];
 

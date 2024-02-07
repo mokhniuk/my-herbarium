@@ -18,10 +18,24 @@
 
 .pink {
   background-color: $pink--10;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $pink--medium;
+  }
 }
+
 .green {
   background-color: $green--10;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $green--medium;
+  }
 }
+
 .blue {
   background-color: $blue--10;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $blue--medium;
+  }
 }

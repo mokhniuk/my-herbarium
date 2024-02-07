@@ -93,8 +93,8 @@ const Card = ({
             min="0"
             max="50"
             step="0.1"
-            iconOn={<SunOn color="white" />}
-            iconOff={<SunOff color="white" />}
+            iconOn={<SunOn color="currentColor" />}
+            iconOff={<SunOff color="currentColor" />}
             color={color}
           />
 
@@ -104,8 +104,8 @@ const Card = ({
             min="0"
             max="100"
             step="0.1"
-            iconOn={<WaterOn color="white" />}
-            iconOff={<WaterOff color="white" />}
+            iconOn={<WaterOn color="currentColor" />}
+            iconOff={<WaterOff color="currentColor" />}
             color={color}
           />
         </div>

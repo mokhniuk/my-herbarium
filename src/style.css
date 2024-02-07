@@ -2,13 +2,23 @@
   box-sizing: border-box;
 }
 
+html {
+  --color-background: white;
+  --color-foreground: #151515;
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+
+  @media (prefers-color-scheme: dark) {
+    --color-background: #151515;
+    --color-foreground: white;
+  }
+}
+
 body {
-  padding: 1rem;
-  color: black;
-  background-color: white;
   font-family: 'Inter', system-ui, sans-serif;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 4rem 1rem;
 }
 
 h1 {

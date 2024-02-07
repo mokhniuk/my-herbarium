@@ -6,8 +6,7 @@ $dark: #151515;
 $pink--dark: rgba(100, 2, 39, 1);
 $pink--medium: rgba(131, 53, 82, 1);
 $pink--light: #f8d9e8;
-$pink--extralight: linear-gradient(0deg, #f8d9e8, #f8d9e8),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+$pink--extralight: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(0deg, #f8d9e8, #f8d9e8);
 $pink--highlight: rgba(255, 98, 174, 1);
 $pink--10: rgba(100, 2, 39, 0.1);
 
@@ -15,8 +14,7 @@ $pink--10: rgba(100, 2, 39, 0.1);
 $blue--dark: rgba(31, 44, 46, 1);
 $blue--medium: rgba(53, 65, 67, 1);
 $blue--light: rgba(156, 181, 186, 1);
-$blue--extralight: linear-gradient(0deg, #9cb5ba, #9cb5ba),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+$blue--extralight: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(0deg, #9cb5ba, #9cb5ba);
 $blue--highlight: rgba(155, 238, 255, 1);
 $blue--10: rgba(31, 44, 46, 0.1);
 
@@ -24,7 +22,6 @@ $blue--10: rgba(31, 44, 46, 0.1);
 $green--dark: rgba(57, 65, 7, 1);
 $green--medium: rgba(77, 84, 32, 1);
 $green--light: rgba(212, 233, 156, 1);
-$green--extralight: linear-gradient(0deg, #d4e99c, #d4e99c),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+$green--extralight: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(0deg, #d4e99c, #d4e99c);
 $green--highlight: rgba(151, 201, 16, 1);
 $green--10: rgba(57, 65, 7, 0.1);
