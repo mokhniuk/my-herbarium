@@ -6300,6 +6300,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel@npm:^6.23.0":
+  version: 6.23.0
+  resolution: "babel@npm:6.23.0"
+  bin:
+    babel: ./lib/cli.js
+    babel-external-helpers: ./lib/cli.js
+    babel-node: ./lib/cli.js
+  checksum: 10c0/a8d7191fcea3861bd424f97ee4f90ade76718f524466437896d0c4823871464c70f88f0bb89bba8448ab172aa42c7f0c828144f88378926687728adec5b73fd7
+  languageName: node
+  linkType: hard
+
 "balanced-match@npm:^1.0.0":
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
@@ -9203,6 +9214,8 @@ __metadata:
     "@storybook/react": "npm:^7.6.13"
     "@storybook/react-webpack5": "npm:^7.6.13"
     "@storybook/test": "npm:^7.6.13"
+    babel: "npm:^6.23.0"
+    babel-preset-react-app: "npm:^10.0.1"
     classnames: "npm:^2.5.1"
     prop-types: "npm:^15.8.1"
     react: "npm:18.2.0"

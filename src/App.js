@@ -7,8 +7,10 @@ import Card from './components/Card/Card';
 
 // TODO:
 // - save values to localstorage
-// - add stories
+
+// - imrove stories
 // - add tests
+
 // - write questions
 // - write tasks
 // - A/B testing
