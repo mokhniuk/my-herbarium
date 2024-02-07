@@ -1,0 +1,27 @@
+@import '../../assets/styles/variables.scss';
+
+.indicator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.25rem 0.625rem 0.25rem 0.25rem;
+  margin: 0;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-feature-settings: 'zero';
+
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.pink {
+  background-color: $pink--10;
+}
+.green {
+  background-color: $green--10;
+}
+.blue {
+  background-color: $blue--10;
+}
