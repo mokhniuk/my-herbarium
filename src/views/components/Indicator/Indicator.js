@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './indicator.module.scss';
 import classNames from 'classnames';
+import styles from './indicator.module.scss';
 
 const Indicator = ({ icon, value, measureUnit, color }) => {
   const indicatorClassNames = classNames(styles.indicator, {

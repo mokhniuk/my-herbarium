@@ -1,7 +1,7 @@
 import Indicator from './Indicator';
 import {
   Temperature,
-} from '../../components/Icons/index';
+} from 'views/components/Icons/index';
 
 export default {
   title: 'Components/Indicator',

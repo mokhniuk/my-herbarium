@@ -1,7 +1,8 @@
-import Card from './Card';
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom'
+
+import Card from './Card';
 
 test('Card should render', () => {
   render(<Card title="Orchid"
