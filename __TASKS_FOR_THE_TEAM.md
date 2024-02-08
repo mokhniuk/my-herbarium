@@ -2,6 +2,10 @@
 
 ## General
 
+### A/B Testing
+
+Add library for A/B testing.
+
 ### i18n
 
 Clarify which lib to use (react-intl or similar); what benefits, code style etc.
@@ -22,7 +26,7 @@ Use something like uuid generator for id's on flowers.js
 
 ### Update tests
 
-Update tests for existing componetns
+Update tests for existing componetns.
 
 ### Refactor styles
 

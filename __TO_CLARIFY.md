@@ -17,6 +17,7 @@
 
 ## PM, Designer, Researcher
 
+- A/B Testing.
 - Do we need a landing page(s) for this app?
 - What are next major features (screens) we want to concentrate on?
 - What type of user settings do we want to have?

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import styles from './card.module.scss';
+import React, { useState } from 'react';
 import classNames from 'classnames';
+import styles from './card.module.scss';
 
 import {
   Temperature,
