@@ -30,9 +30,7 @@ const Card = ({
 
   const [isOpened, setIsOpened] = useState(open);
 
-  const [temperatureValue, setTemperatureValue] = useState(
-    temperature.toFixed(1)
-  );
+  const [temperatureValue, setTemperatureValue] = useState(temperature.toFixed(1));
   const [humidityValue, setHumidityValue] = useState(humidity.toFixed(1));
 
   return (
@@ -45,7 +43,8 @@ const Card = ({
             <li className={styles.tag}>
               <Indicator
                 icon={<Temperature size="24" color="currentColor" />}
-                value={temperatureValue}
+                // value={temperatureValue}
+                value={temperature}
                 measureUnit="°C"
                 color={color}
               />
@@ -53,7 +52,8 @@ const Card = ({
             <li className={styles.tag}>
               <Indicator
                 icon={<Humidity size="24" color="currentColor" />}
-                value={humidityValue}
+                // value={humidityValue}
+                value={humidity}
                 measureUnit="%"
                 color={color}
               />

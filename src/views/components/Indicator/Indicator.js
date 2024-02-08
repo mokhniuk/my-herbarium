@@ -10,7 +10,7 @@ const Indicator = ({ icon, value, measureUnit, color }) => {
   return (
     <span className={indicatorClassNames}>
       {icon && icon}
-      {value}
+      {value.toFixed(1)}
       {measureUnit && measureUnit}
     </span>
   );
