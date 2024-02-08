@@ -14,7 +14,11 @@ Attention: Better done at early stages while other tasks for this project are no
 
 ### Update Stories
 
-Check existing components for missing states.
+Check existing components for missing states. Add all icons.
+
+### Dynamic ID for flowers
+
+Use something like uuid generator for id's on flowers.js
 
 ### Update tests
 
@@ -43,7 +47,7 @@ Create path config to store all app routes when we'll clarify the flow.
 
 ### Accessibility
 
-Context: improve semantics and accessibility of components.
+Improve semantics and accessibility of components.
 Current state: basic keyboard navigation possible;
 
 ### Slider accessibility
@@ -52,7 +56,7 @@ Investigate if we need to use some well-thought out slider component library or 
 
 ### Loader
 
-Context: at some point there will be more then 5 flowers in the list, loading may become slow. Implement a solution for list loader.
+At some point there will be more then 5 flowers in the list, loading may become slow. Implement a solution for list loader.
 
 ### SPA
 
