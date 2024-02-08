@@ -9,9 +9,9 @@ import {
   SunOn,
   WaterOff,
   WaterOn,
-} from '../../components/Icons/index';
-import Slider from '../../components/Slider/Slider';
-import Indicator from '../../components/Indicator/Indicator';
+} from 'views/components/Icons/index';
+import Slider from 'views/components/Slider/Slider';
+import Indicator from 'views/components/Indicator/Indicator';
 
 const Card = ({
   title,

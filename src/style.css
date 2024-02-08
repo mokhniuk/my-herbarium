@@ -27,18 +27,3 @@ h1 {
   line-height: 1.6;
   letter-spacing: 0.01em;
 }
-
-.cards-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-@media (min-width: 700px) {
-  .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: masonry;
-  }
-}

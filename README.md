@@ -22,7 +22,8 @@ That's it.
 ## What's used
 
 - `css-modules` and `classnames` for styles
--
+- `testing-library` for tests
+- `storybook` for UI documentation representation
 
 ## Known issues
 
@@ -35,7 +36,5 @@ That's it.
 
 1. i18n
 2. PropTypes
-3. Storybook
-4. Testing
 5. Routing
 6.

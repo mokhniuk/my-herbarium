@@ -9,6 +9,7 @@
     "react": "18.2.0",
     "react-device-detect": "^2.2.3",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.22.0",
     "sass": "^1.70.0",
     "storybook-dark-mode": "^3.0.3"
   },
@@ -30,6 +31,8 @@
     "@storybook/react": "^7.6.13",
     "@storybook/react-webpack5": "^7.6.13",
     "@storybook/test": "^7.6.13",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
     "prop-types": "^15.8.1",
     "react-scripts": "latest",
     "storybook": "^7.6.13",
