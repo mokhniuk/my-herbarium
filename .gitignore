@@ -1,1 +1,7 @@
 node_modules
+*.log
+.vscode
+.idea
+.yarn
+yarn.lock
+*.DS_Store
