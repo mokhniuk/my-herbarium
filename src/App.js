@@ -18,8 +18,6 @@ import Title from 'views/components/Title/Title';
 
 // - update aliases (@pages, @components, @data etc)
 
-// - write questions
-// - write tasks
 // - A/B testing
 
 export default function App() {
